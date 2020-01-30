@@ -1,13 +1,13 @@
 {
   "name": "@alphasquad/foreach-await",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A better foreach with await capability. ",
   "main": "lib/index.js",
   "types": "./lib",
   "scripts": {
     "build": "tsc -p ."
   },
-  "author": "alphasquad",
+  "author": "AlphaSquad",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^3.7.5"
