@@ -5,11 +5,11 @@ A better forEach loop for your javascript applications with await capability.
 
 # Install
 ```
-npm install [--save] foreach-await
+npm install [--save] @alphasquad/foreach-await
 
 // OR
 
-npm i [-S] foreach-await
+npm i [-S] @alphasquad/foreach-await
 ```
 
 # Usage
@@ -17,7 +17,7 @@ npm i [-S] foreach-await
 For ECMA < ES6
 
 ```
-const forEach = require('foreach-await')
+const forEach = require('@alphasquad/foreach-await')
 
 forEach(arr, async(item) => {
     await doSomething(item)
@@ -34,7 +34,7 @@ await forEach(arr, async(item) => {
 For ECMA > ES6
 
 ```
-import forEach from 'foreach-await'
+import forEach from '@alphasquad/foreach-await'
 
 forEach(arr, async(item) => {
     await doSomething(item)

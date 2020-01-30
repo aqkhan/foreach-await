@@ -1,6 +1,6 @@
 {
   "name": "@alphasquad/foreach-await",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A better foreach with await capability. ",
   "main": "lib/index.js",
   "types": "./lib",
